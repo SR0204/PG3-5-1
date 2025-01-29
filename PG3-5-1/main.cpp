@@ -1,7 +1,7 @@
 #include <Novice.h>
 #include <GameManeger.h>
 
-const char kWindowTitle[] = "学籍番号と名前";
+const char kWindowTitle[] = "LE2C_スズキレオ";
 
 // Windowsアプリでのmain関数
 int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {

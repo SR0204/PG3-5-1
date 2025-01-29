@@ -10,7 +10,7 @@ class GameManeger
 {
 private:
 	//シーン保持メンバ関数
-	std::unique_ptr</*Sceneインターフェース*/> sceneArr_[3];
+	std::unique_ptr<IScene/*Sceneインターフェース*/> sceneArr_[3];
 
 	//現在のシーン
 	int currentSceneNo_;

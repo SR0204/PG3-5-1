@@ -18,4 +18,3 @@ public://ƒƒ“ƒoŠÖ”
 	void Draw() override;
 
 };
-

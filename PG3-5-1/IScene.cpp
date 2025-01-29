@@ -1,7 +1,7 @@
 #include "IScene.h"
 
 //シーンはタイトルで初期化
-int IScene::sceneNo = /*enum SceneのTITLE*/;
+int IScene::sceneNo = TITLE;/*enum SceneのTITLE*/
 
 //仮想デストラクタ定義
 IScene::~IScene() {}

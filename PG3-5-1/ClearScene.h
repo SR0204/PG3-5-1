@@ -1,6 +1,7 @@
 #pragma once
 #include "IScene.h"
 
+
 class ClearScene : public IScene
 {
 public://ƒƒ“ƒoŠÖ”
@@ -14,4 +15,3 @@ public://ƒƒ“ƒoŠÖ”
 	///•`‰æˆ—
 	void Draw() override;
 };
-
