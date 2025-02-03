@@ -1,5 +1,5 @@
 #include <Novice.h>
-#include "Scene.h"
+
 
 const char kWindowTitle[] = "LE2C_スズキレオ";
 
@@ -16,9 +16,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 	char keys[256] = { 0 };
 	char preKeys[256] = { 0 };
 
-	Scene* scene = new Scene();
-	scene->Init();
-
+	
 	// ウィンドウの×ボタンが押されるまでループ
 	while (Novice::ProcessMessage() == 0) {
 
@@ -33,7 +31,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		/// ↓更新処理ここから
 		///
 
-		scene->Update();
+		
 
 		///
 		/// ↑更新処理ここまで
@@ -43,7 +41,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		/// ↓描画処理ここから
 		///
 
-		scene->Draw();
+		
 
 		///
 		/// ↑描画処理ここまで
